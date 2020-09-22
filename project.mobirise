@@ -31,7 +31,8 @@
         "#f4f8fa",
         "#f7f7f7",
         "#6b4b3e",
-        "#282124"
+        "#282124",
+        "#2e2e2e"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -44,7 +45,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 36,
+    "uniqCompNum": 43,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/bill-oxford-oxghu60nwxu-unsplash-128x71.png",
@@ -801,7 +802,7 @@
               "color": "#9c969b"
             }
           },
-          "_customHTML": "<section class=\"map2\" group=\"Maps\">\n\n    <mbr-parameters>\n        <!-- Block of parameters for component -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"3\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"3\" step=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n        <input type=\"map\" title=\"Map 1\" name=\"googleMap1\" place-id=\"iframe\" value=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5031.816615107401!2d-101.41782982213012!3d26.90249061464174!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x32559126516c83d2!2sJaime%20Gmo.%20De%20Ita%20Heredia!5e0!3m2!1ses!2smx!4v1596683460356!5m2!1ses!2smx&quot; width=&quot;600&quot; height=&quot;450&quot; frameborder=&quot;0&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; aria-hidden=&quot;false&quot; tabindex=&quot;0&quot;></iframe>\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <!-- End block of parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-6 map1\">\n                <div class=\"google-map\" mbr-map=\"googleMap1\">\n                </div>\n            </div>\n            <div class=\"col-md-6 map2\">\n                <div class=\"text-wrap\">\n                    <h4 class=\"card-title align-left mbr-semibold pb-4 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Ubicacion</h4>\n\n                    <p class=\"mbr-text pb-2 align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .sig-img\"><b>Venustiano Carranza 331 Altos, Centro, 25700 Monclova, Coah.<br><br>Email: deita13@yahoo.com.mx<br>\n                        Email: gabrieladid@hotmail.com<br><br>Telefono: +52 (1) 866 630 0696\n                        <br>Telefono: +52 (1) 866 150 8411</b><br></p>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"https://mobirise.co\" class=\"btn btn-primary-outline\" data-app-placeholder=\"Type Text\">\n                            GET DIRECTIONS</a></div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"map2\" group=\"Maps\">\n\n    <mbr-parameters>\n        <!-- Block of parameters for component -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"3\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"3\" step=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n        <input type=\"map\" title=\"Map 1\" name=\"googleMap1\" place-id=\"iframe\" value=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5031.816615107401!2d-101.41782982213012!3d26.90249061464174!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x32559126516c83d2!2sJaime%20Gmo.%20De%20Ita%20Heredia!5e0!3m2!1ses!2smx!4v1596683460356!5m2!1ses!2smx&quot; width=&quot;600&quot; height=&quot;450&quot; frameborder=&quot;0&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; aria-hidden=&quot;false&quot; tabindex=&quot;0&quot;></iframe>\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <!-- End block of parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-6 map1\">\n                <div class=\"google-map\" mbr-map=\"googleMap1\">\n                </div>\n            </div>\n            <div class=\"col-md-6 map2\">\n                <div class=\"text-wrap\">\n                    <h4 class=\"card-title align-left mbr-semibold pb-4 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Ubicacion</h4>\n\n                    <p class=\"mbr-text pb-2 align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .sig-img\"><b>Venustiano Carranza 331 Altos, Centro, 25700 Monclova, Coah.<br><br>Email: <a href=\"mailto:deita13@yahoo.com.mx\">deita13@yahoo.com.mx</a><br>\n                        Email: <a href=\"mailto:gabrieladid@hotmail.com\">gabrieladid@hotmail.com</a><br><br>Telefono: +52 (1) 866 630 0696\n                        <br>Telefono: +52 (1) 866 150 8411</b><br></p>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"https://mobirise.co\" class=\"btn btn-primary-outline\" data-app-placeholder=\"Type Text\">\n                            GET DIRECTIONS</a></div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "map03-b",
           "_isUserblock": true,
           "_sourceTheme": "personam4",
@@ -832,94 +833,77 @@
                 }
               }
             },
-            ".img-logo": {
+            ".media-wrap": {
+              "@media (max-width: 767px)": {
+                "margin-bottom": "1rem"
+              },
+              ".mbr-iconfont-logo": {
+                "font-size": "7.5rem",
+                "color": "#f36"
+              },
               "img": {
                 "height": "6rem"
               }
             },
-            "& when (@customStyle)": {
-              ".form-control": {
-                "margin-bottom": "1rem",
-                "padding": "1.07em 1.07em",
-                "background-color": "@fieldColor",
-                "border": "1px solid @borderColor",
-                "color": "@formText",
-                "line-height": "1.43",
-                "min-height": "3.5em",
-                "border-radius": ".25rem",
-                "&:focus, &:hover": {
-                  "border": "1px solid @borderHover",
-                  "background-color": "@fieldHover"
-                }
-              },
-              ".form-group": {
-                "margin-bottom": "1rem"
-              },
-              "input::-webkit-input-placeholder, textarea::-webkit-input-placeholder": {
-                "color": "@formPlaceholder"
-              },
-              "input:-moz-placeholder, textarea:-moz-placeholder": {
-                "color": "@formPlaceholder"
-              },
-              ".jq-selectbox li, .jq-selectbox li": {
-                "background-color": "@fieldColor",
-                "color": "contrast(@fieldColor, #000000, #ffffff, 30%)"
-              },
-              ".jq-selectbox li:hover, .jq-selectbox li.selected": {
-                "background-color": "@fieldHover",
-                "color": "contrast(@fieldHover, #000000, #ffffff, 30%)"
-              },
-              ".jq-selectbox:hover .jq-selectbox__trigger-arrow": {
-                "border-top-color": "@fieldColor"
-              },
-              ".jq-selectbox .jq-selectbox__trigger-arrow": {
-                "border-top-color": "@fieldHover"
+            ".mbr-text": {
+              "color": "#8d97ad"
+            },
+            ".p-title": {
+              "font-size": "17px",
+              "span": {
+                "color": "#111111"
               }
             },
-            "textarea.form-control": {
-              "resize": "none"
+            ".title-card": {
+              "font-size": "1.3rem"
             },
-            ".input-group-btn": {
-              "display": "inline-block",
-              ".btn": {
-                "margin": "0 !important",
-                "padding": ".75rem 1.5625rem !important",
-                "text-transform": "none"
-              }
-            },
-            ".form-group": {
-              "-webkit-flex-wrap": "wrap",
-              "flex-wrap": "wrap",
-              "-webkit-justify-content": "center",
-              "justify-content": "center"
-            },
-            ".social-list": {
-              "padding-left": "0",
-              "margin-bottom": "0",
-              "list-style": "none",
-              "display": "flex",
-              "-webkit-flex-wrap": "wrap",
-              "flex-wrap": "wrap",
-              ".mbr-iconfont-social": {
-                "font-size": "1.3rem",
-                "color": "#fff"
-              },
-              ".soc-item": {
-                "margin": "0 .5rem"
-              },
-              "a": {
+            ".social-media": {
+              "ul": {
                 "margin": "0",
-                "opacity": ".5",
-                "-webkit-transition": ".2s linear",
-                "transition": ".2s linear",
-                "&:hover": {
-                  "opacity": "1"
+                "padding": "0",
+                "margin-bottom": "8px",
+                "li": {
+                  "margin-right": ".5rem",
+                  "display": "inline-block",
+                  "margin-bottom": ".5rem"
                 }
-              },
-              "@media (max-width: 767px)": {
-                "-webkit-justify-content": "center",
-                "justify-content": "center"
               }
+            },
+            ".footer-menu": {
+              "margin-bottom": "0",
+              "display": "flex",
+              "-webkit-justify-content": "flex-end",
+              "justify-content": "flex-end",
+              "-webkit-flex-wrap": "wrap",
+              "flex-wrap": "wrap",
+              "list-style": "none",
+              "&__item": {
+                "font-size": "18px",
+                "padding-right": "1.5rem",
+                "&:last-child": {
+                  "padding-right": "0"
+                }
+              }
+            },
+            ".copyright": {
+              "display": "flex",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "img": {
+                "margin-right": "10px"
+              }
+            },
+            ".icon-transition span": {
+              "color": "rgb(255, 255, 255)",
+              "display": "flex",
+              "padding": "1rem",
+              "border-radius": "50%",
+              "background-color": "@circleColor",
+              "transition": "all 0.3s ease-out 0s",
+              "font-size": "14px"
+            },
+            ".icon-transition span:hover": {
+              "background-color": "@circleHover"
             },
             ".footer-lower": {
               ".copyright": {
@@ -930,22 +914,36 @@
               },
               "hr": {
                 "margin": "1rem 0",
-                "border-color": "#fff",
-                "opacity": ".05"
+                "border-color": "#efefef"
               }
             },
-            ".form-control, .input-group-btn .btn": {
-              "border-radius": "3px"
+            "@media (max-width: 767px)": {
+              ".footer-menu": {
+                "-webkit-justify-content": "center",
+                "justify-content": "center"
+              }
+            },
+            "H5": {
+              "color": "#f4f8fa"
+            },
+            ".p-title, .social-media": {
+              "color": "#ffffff"
+            },
+            "SPAN": {
+              "color": "#444444"
+            },
+            ".copyright > p": {
+              "color": "#444444"
             }
           },
-          "_name": "extFooter1",
-          "_customHTML": "<section class=\"extFooter\" group=\"Additional Blocks\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Show Copyright\" name=\"showCopyright\" checked>\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Style</header>\n        <input type=\"checkbox\" name=\"customStyle\" title=\"Custom Style\" checked>\n        <input type=\"color\" name=\"fieldColor\" title=\"Field\" value=\"#f5f5f5\" condition=\"customStyle\">\n        <input type=\"color\" name=\"fieldHover\" title=\"Field Hover\" value=\"#f5f5f5\" condition=\"customStyle\">\n        <input type=\"color\" name=\"borderColor\" title=\"Border\" value=\"#e8e8e8\" condition=\"customStyle\">\n        <input type=\"color\" name=\"borderHover\" title=\"Border Hover\" value=\"#e8e8e8\" condition=\"customStyle\">\n        <input type=\"color\" name=\"formText\" title=\"Text\" value=\"#656565\" condition=\"customStyle\">\n        <input type=\"color\" name=\"formPlaceholder\" title=\"Placeholders\" value=\"#656565\" condition=\"customStyle\">\n        \n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#2e2e2e\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#3C3C3C\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row content mbr-white\">\n            <div class=\"col-md-3 col-sm-12\">\n                <div class=\"mb-3 img-logo\">\n                    <a href=\"https://mobiri.se/\">\n                        <img src=\"@PROJECT_PATH@/assets/images/mbr-192x206.png\" alt=\"Mobirise\" title>\n                    </a>\n                </div>\n                <p class=\"mb-3 mbr-fonts-style foot-title\" mbr-theme-style=\"display-7\" data-app-selector=\".foot-title, .img-logo\">JURIDICO DE ITA Y ASOCIADOS</p>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\"><a href=\"index.html#article4-4\" class=\"text-white\">Sobre Nosotros&nbsp;</a><br><a href=\"index.html#extTabs8-7\" class=\"text-white\">Servicios</a><br><a href=\"index.html#map03-b\" class=\"text-white\">U</a>bicacion</p>\n            </div>\n            <div class=\"col-md-4 col-sm-12\">\n                <p class=\"mb-4 foot-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".foot-title, .img-logo\">Contacto</p>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\">Domicilio: V. Carranza Nº 331 Oriente, Altos. Zona Centro C.P. 25700 Monclova, Coah. México. <br><br>Correo:<br>\ndeita13@yahoo.com.mx\n<br>gabrieladid@hotmail.com<br><br>Teléfonos: \n<br>+52 (1) 866 630 0696<br>+52 (1) 866 150 8411</p>\n            </div>\n            <div class=\"col-md-4 offset-md-1 col-sm-12\">\n                <p class=\"mb-4 foot-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".foot-title, .img-logo\">\n                    Contactenos</p>\n                <div class=\"form-block\">\n                    <div mbr-form>\n                        <!---Formbuilder Form--->\n                        <form action=\"gui.deita92@hotmail.com\" name=\"Mobirise Form\" method=\"POST\" class=\"mbr-form form-with-styler\">\n                            <div class=\"form-row\">\n                                <div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Gracias por tu mensaje, nosotros te llamaremos!</div>\n                                <div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\"></div>\n                            </div>\n                            <div class=\"dragArea form-row\">\n                                <div class=\"col-md-12  form-group\" data-for=\"email\">\n                                    <input type=\"text\" name=\"email\" placeholder=\"Email\" data-form-field=\"Email\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control input\">\n                                </div>\n                                <div class=\"col-md-12  form-group\" data-for=\"message\">\n                                    <textarea type=\"textarea\" name=\"message\" placeholder=\"Mensaje\" data-form-field=\"Message\" mbr-theme-style=\"display-7\" class=\"form-control input\"></textarea>\n                                </div>\n                                <div class=\"col-md-12  align-center input-group-btn mt-2\" mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrBtnLink,-mbrBtnAdd\"><a type=\"submit\" class=\"btn btn-primary btn-bgr btn-form\" data-app-placeholder=\"Type Text\" href=\"mailto:deita13@yahoo.com.mx\">SEND MESSAGE</a></div>\n                            </div>\n                        </form><!---Formbuilder Form--->\n                    </div>\n                </div>\n            </div>\n        </div>\n        <div class=\"footer-lower\" mbr-if=\"showCopyright\">\n            <div class=\"media-container-row\">\n                <div class=\"col-sm-12\">\n                    <hr>\n                </div>\n            </div>\n            <div class=\"media-container-row mbr-white\">\n                <div class=\"col-sm-12 copyright\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".copyright > p\">\n                        © Copyright 2025 guillermodeita.com- All Rights Reserved\n                    </p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "s76SXXBCHN",
-          "_anchor": "extFooter1-t",
+          "_name": "extFooter21",
+          "_customHTML": "<section class=\"extFooter\" group=\"Additional Blocks\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->  \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <select title=\"Social Icons\" name=\"iconsCount\">\n            <option value=\"0\">0</option>\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"color\" title=\"Circle Color\" name=\"circleColor\" value=\"#8d97ad\">\n        <input type=\"color\" title=\"Circle Hover\" name=\"circleHover\" value=\"#ff4f7b\">\n        <select name=\"columns\" title=\"List Columns\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Copyright\" name=\"showCopyright\" checked>\n        <input type=\"range\" inline title=\"Menu Items\" name=\"countItem\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" condition=\"showCopyright\">\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" condition=\"showCopyright\" checked>\n        <input type=\"range\" title=\"Logo Size\" name=\"logoSize\" min=\"2\" max=\"10\" value=\"3\" step=\"1\" condition=\"showCopyright&&showLogo\" inline>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background8.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#2e2e2e\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#3C3C3C\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row content text-white\">\n               <div class=\"col-md-6  mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-class=\"{'col-lg-3':columns==4,\n                             'col-lg-4':columns==3,\n                             'col-lg-6':columns==2,\n                             'col-lg-12':columns==1}\">\n                <h5 class=\"pb-3 mbr-black title-card\">\n                    Domicilio</h5>\n                <p class=\"mbr-text p-title\" data-app-selector=\".p-title, .social-media\">Domicilio: V. Carranza Nº 331 Oriente, Altos. Zona Centro C.P. 25700 Monclova, Coah. México.&nbsp;</p>\n            </div>\n            <div class=\"col-md-6  mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-class=\"{'col-lg-3':columns==4,\n                             'col-lg-4':columns==3,\n                             'col-lg-6':columns==2,\n                             'col-lg-12' :columns==1}\" mbr-if=\"columns>1\">\n                <h5 class=\"pb-3 mbr-black title-card\">\n                    Telefonos</h5>\n                <p class=\"mbr-text p-title\" data-app-selector=\".p-title, .social-media\">+52 866 630 0696\n<br>+52 866 150 8411</p>\n            </div>\n            <div class=\"col-md-6 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-class=\"{'col-lg-3':columns==4,\n                             'col-lg-4':columns==3,\n                             'col-lg-6':columns==2,\n                             'col-lg-12' :columns==1}\" mbr-if=\"columns>2\">\n                <h5 class=\"pb-3 mbr-black title-card\">\n                    Email\n                </h5>\n                <p class=\"mbr-text p-title\" data-app-selector=\".p-title, .social-media\"><a href=\"mailto:deita13@yahoo.com.mx\" class=\"text-white\">deita13@yahoo.com.mx </a>\n<br><a href=\"mailto:gabrieladid@hotmail.com\" class=\"text-white\">gabrieladid@hotmail.com</a></p>\n            </div>\n            <div class=\"col-md-6 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-class=\"{'col-lg-3':columns==4,\n                             'col-lg-4':columns==3,\n                             'col-lg-6':columns==2,\n                             'col-lg-12' :columns==1}\" mbr-if=\"columns>3\">\n                <h5 class=\"pb-3 mbr-black title-card\">\n                    Contactenos</h5>\n           <div class=\"social-media pb-3 align-left\">\n                        <ul>\n                            <li mbr-if=\"iconsCount > 0\">\n                                <a class=\"icon-transition\" href=\"#\">\n                                    <span mbr-icon class=\"mbr-iconfont socicon-mail socicon\"></span>\n                                </a>\n                            </li>\n                            <li mbr-if=\"iconsCount > 1\">\n                                <a class=\"icon-transition\" href=\"tel:+52 866 630 0696\">\n                                    <span mbr-icon class=\"mbr-iconfont mobi-mbri-phone mobi-mbri\"></span>\n                                </a>\n                            </li>\n                            <li mbr-if=\"iconsCount > 2\">\n                                <a class=\"icon-transition\" href=\"#\">\n                                    <span mbr-icon class=\"mbr-iconfont socicon-linkedin socicon\"></span>\n                                </a>\n                            </li>\n                            <li mbr-if=\"iconsCount > 3\">\n                                <a class=\"icon-transition\" href=\"#\">\n                                    <span mbr-icon class=\"mbr-iconfont socicon-youtube socicon\"></span>\n                                </a>\n                            </li>\n                            <li mbr-if=\"iconsCount > 4\">\n                                <a class=\"icon-transition\" href=\"#\">\n                                    <span mbr-icon class=\"mbr-iconfont socicon-rss socicon\"></span>\n                                </a>\n                            </li>\n                            <li mbr-if=\"iconsCount > 5\">\n                                <a class=\"icon-transition\" href=\"#\">\n                                    <span mbr-icon class=\"mbr-iconfont socicon-googleplus socicon\"></span>\n                                </a>\n                            </li>\n                        </ul>\n                    </div>\n            </div>\n        </div>\n        <div class=\"footer-lower\" mbr-if=\"showCopyright\">\n            <div class=\"media-container-row\">\n                <div class=\"col-sm-12\">\n                    <hr>\n                </div>\n            </div>\n            <div class=\"media-container-row mbr-white\">\n                <div class=\"col-sm-6 copyright\">\n                \t<img src=\"@PROJECT_PATH@/assets/images/mbr-192x206.png\" mbr-if=\"showLogo\" mbr-style=\"{'width': logoSize + 'rem'}\" alt title>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".copyright > p\">\n                        © Copyright 2025 guillermodeita.com- All Rights Reserved</p>\n                </div>\n                <div class=\"col-md-6 menu-list\" mbr-if=\"countItem>0\">\n\t\t\t\t\t<div class=\"footer-menu\" mbr-list mbr-list-grow=\"countItem\">\n\t\t\t\t\t\t<span class=\"footer-menu__item\" mbr-text>Inicio</span>\n\t\t\t\t\t\t<span class=\"footer-menu__item\" mbr-text> <a href=\"index.html#extContent5-o\" class=\"text-info\"></a><a href=\"index.html#extContent5-o\">Quienes somos</a></span>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sbhV2MWs7V",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "extFooter21-11"
         }
       ]
     }
