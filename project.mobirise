@@ -45,8 +45,8 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 43,
-    "versionPublish": "4.12.4",
+    "uniqCompNum": 48,
+    "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/bill-oxford-oxghu60nwxu-unsplash-128x71.png",
     "robotsSwitcher": false,
@@ -60,7 +60,23 @@
     "lazyType": "nothing",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-179030433-1\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-179030433-1');\n</script>\n",
-    "gdpr": false
+    "gdpr": false,
+    "chatbutton": {
+      "phone": "+528666300696",
+      "message": "",
+      "size": "65px",
+      "backgroundColor": "#e5ddd5",
+      "position": "left",
+      "popupMessage": "Hola\n\nEscribe aqui de que manera podemos apoyarte, con gusto te antendermos.\n\nDespacho Juridico y Asociados.",
+      "showPopup": true,
+      "showOnIE": true,
+      "autoOpenTimeout": "5",
+      "headerColor": "#39847a",
+      "headerTitle": "Contactanos por Whatsapp",
+      "placeholder": "Escribe aqui tu mensaje",
+      "zIndex": 10,
+      "enabled": true
+    }
   },
   "pages": {
     "index.html": {
@@ -537,6 +553,49 @@
           "_params": {}
         },
         {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".line": {
+              "width": "35px",
+              "height": "3px",
+              "display": "inline-block",
+              "background": "@lineColor",
+              "transition": "background 0.3s"
+            },
+            "H2": {
+              "color": "#232323"
+            },
+            "H3": {
+              "color": "#232323"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#767676"
+            },
+            "@media (max-width: 992px)": {
+              ".md-pb": {
+                "padding-bottom": "2rem"
+              }
+            }
+          },
+          "_name": "content01",
+          "_sourceTheme": "politicsm4",
+          "_customHTML": "<section class=\"content01 politicsm4_content01\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"5\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"5\">\n\t\t<header>Show / Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubTitle\">\n\t\t<input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n\t\t<header>Background</header>\n\t\t<input type=\"color\" title=\"Line\" name=\"lineColor\" value=\"#282124\" selected condition=\"showTitle\">\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"../_images/background4.jpg\" parallax>\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n\t<div class=\"container\">\n\t\t<div class=\"row justify-content-center align-left\">\n\t\t\t<div class=\"col-lg-6 md-pb\">\n\t\t\t\t<h3 class=\"mbr-section-subtitle pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubTitle\">\n\t\t\t\t\tAbout Politician</h3>\n\t\t\t\t<h2 class=\"mbr-section-title mbr-bold pb-1 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Promotora Jurídica del paciente</h2>\n\t\t\t\t<div class=\"line-wrap\" mbr-if=\"showTitle\">\n\t\t\t\t\t<div class=\"line\"></div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"col-lg-6\" mbr-if=\"showText\">\n\t\t\t\t<p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Las negligencias médicas, en muchos casos se deben a una falta de diligencia en el médico, por error médico, error de diagnóstico, mala praxis en protocolos médicos, y no solo en el médico, sino también puede darse por el propio equipo médico o en el ámbito hospitalario (infecciones, falta de atención, etc.)..</p>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
+          "_cid": "smBzmqjkZV",
+          "_anchor": "content01-19",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
           "alias": "mobirise4-blocks/components",
           "_isSecondary": true,
           "typeCompatible": "type",
@@ -680,27 +739,104 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            "@media (min-width: 992px)": {
-              ".mbr-figure": {
-                "padding-right": "4rem"
-              }
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".line": {
+              "width": "35px",
+              "height": "3px",
+              "display": "inline-block",
+              "background": "@lineColor",
+              "transition": "background 0.3s",
+              "margin-bottom": "2rem"
+            },
+            "H2": {
+              "color": "#36404c"
+            },
+            "H3": {
+              "color": "#36404c"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#767676"
+            },
+            ".photo": {
+              "width": "90%"
             },
             "@media (max-width: 992px)": {
-              ".mbr-figure": {
-                "padding-bottom": "1rem"
+              ".md-pb": {
+                "padding-bottom": "2rem"
+              },
+              ".photo": {
+                "width": "100%"
               }
             },
-            ".mbr-text": {
-              "color": "#000000",
-              "letter-spacing": "0.03em",
-              "text-align": "left"
+            ".signature": {
+              "filter": "invert(0.5)",
+              "width": "auto"
             }
           },
-          "_name": "article4",
-          "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"5\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"105\">\n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#f7f7f7\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <img src=\"@PROJECT_PATH@/assets/images/jaime-de-ita-abogado-436x626.png\" alt=\"Mobirise\" title>  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><br><b>Nuestro objetivo fundamenta</b>l, es brindar soluciones jurídicas, una vez que sabemos el tipo de clientes al que podemos ofrecer nuestros servicios, ello en virtud de que conocemos al sector del mercado en el que nos desenvolvemos.\n<br><br><br><br></p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "s735Cm98XR",
-          "_anchor": "article4-4",
+          "_name": "Team02",
+          "_sourceTheme": "politicsm4",
+          "_customHTML": "<section class=\"team02 politicsm4_team02\" group=\"Team\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-parallax-background': bg.parallax}\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n\t\t<input type=\"checkbox\" title=\"Form On Right/Left\" name=\"reverseContent\">\n\t\t<header>Show / Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubTitle\">\n\t\t<input type=\"checkbox\" title=\"Signature\" name=\"showSign\">\n\t\t<header>Background</header>\n\t\t<input type=\"color\" title=\"Line\" name=\"lineColor\" value=\"#f4f8fa\" selected condition=\"showTitle\">\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"../_images/background2.jpg\" parallax>\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#f4f8fa\" selected>\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n\t<div class=\"container\">\n\t\t<div class=\"row justify-content-center align-left\" mbr-class=\"{'flex-row-reverse flex-wrap-reverse': reverseContent}\">\n\t\t\t<div class=\"col-lg-6 m-auto\" mbr-class=\"{'md-pb': !reverseContent}\">\n\t\t\t\t<h3 class=\"mbr-section-subtitle pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubTitle\">\n\t\t\t\t\tAbout Politician</h3>\n\t\t\t\t<h2 class=\"mbr-section-title mbr-bold pb-1 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Nuestro objetivo fundamental</h2>\n\t\t\t\t<div class=\"line-wrap\" mbr-if=\"showTitle\">\n\t\t\t\t\t<div class=\"line\"></div>\n\t\t\t\t</div>\n\t\t\t\t<p class=\"mbr-text py-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Es brindar soluciones jurídicas, una vez que sabemos el tipo de clientes al que podemos ofrecer nuestros servicios, ello en virtud de que conocemos al sector del mercado en el que nos desenvolvemos. .<br></p>\n\t\t\t\t<img class=\"signature\" src=\"../_images/signature.png\" alt=\"Mobirise\" mbr-if=\"showSign\">\n\t\t\t</div>\n\t\t\t<div class=\"col-lg-6 m-auto align-center\" mbr-class=\"{'md-pb': reverseContent}\">\n\t\t\t\t<img class=\"photo\" src=\"@PROJECT_PATH@/assets/images/jaime-de-ita-abogado-436x626.png\" alt=\"Mobirise\">\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
+          "_cid": "smBxKqtLBv",
+          "_anchor": "Team02-18",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".line": {
+              "width": "35px",
+              "height": "3px",
+              "display": "inline-block",
+              "background": "@lineColor",
+              "transition": "background 0.3s",
+              "margin-bottom": "2rem"
+            },
+            "H2": {
+              "color": "#36404c"
+            },
+            "H3": {
+              "color": "#36404c"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#767676"
+            },
+            ".photo": {
+              "width": "90%"
+            },
+            "@media (max-width: 992px)": {
+              ".md-pb": {
+                "padding-bottom": "2rem"
+              },
+              ".photo": {
+                "width": "100%"
+              }
+            },
+            ".signature": {
+              "filter": "invert(0.5)",
+              "width": "auto"
+            }
+          },
+          "_name": "Team02",
+          "_sourceTheme": "politicsm4",
+          "_customHTML": "<section class=\"team02 politicsm4_team02\" group=\"Team\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-parallax-background': bg.parallax}\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n\t\t<input type=\"checkbox\" title=\"Form On Right/Left\" name=\"reverseContent\" checked>\n\t\t<header>Show / Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubTitle\">\n\t\t<input type=\"checkbox\" title=\"Signature\" name=\"showSign\">\n\t\t<header>Background</header>\n\t\t<input type=\"color\" title=\"Line\" name=\"lineColor\" value=\"#ed4266\" selected condition=\"showTitle\">\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"../_images/background2.jpg\" parallax>\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#f4f8fa\" selected>\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n\t<div class=\"container\">\n\t\t<div class=\"row justify-content-center align-left\" mbr-class=\"{'flex-row-reverse flex-wrap-reverse': reverseContent}\">\n\t\t\t<div class=\"col-lg-6 m-auto\" mbr-class=\"{'md-pb': !reverseContent}\">\n\t\t\t\t<h3 class=\"mbr-section-subtitle pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubTitle\">\n\t\t\t\t\tAbout Politician</h3>\n\t\t\t\t<h2 class=\"mbr-section-title mbr-bold pb-1 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Ideological Leader For Youth Generation</h2>\n\t\t\t\t<div class=\"line-wrap\" mbr-if=\"showTitle\">\n\t\t\t\t\t<div class=\"line\"></div>\n\t\t\t\t</div>\n\t\t\t\t<p class=\"mbr-text py-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">“El Derecho consiste en tres reglas o principios básicos: vivir honestamente, no dañar a los demás y dar a cada uno lo suyo. Es el arte de lo bueno y lo equitativo”.&nbsp;&nbsp;Ulpiano </p>\n\t\t\t\t<img class=\"signature\" src=\"../_images/signature.png\" alt=\"Mobirise\" mbr-if=\"showSign\">\n\t\t\t</div>\n\t\t\t<div class=\"col-lg-6 m-auto align-center\" mbr-class=\"{'md-pb': reverseContent}\">\n\t\t\t\t<img class=\"photo\" src=\"@PROJECT_PATH@/assets/images/img-e0358-comprimida-972x1296.jpg\" alt=\"Mobirise\">\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
+          "_cid": "smBAzpdoAJ",
+          "_anchor": "Team02-1b",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
