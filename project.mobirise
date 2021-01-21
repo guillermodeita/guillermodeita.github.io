@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Despacho Juridico de ita",
-    "currentPage": "index.html",
+    "currentPage": "Juridicodeita.html",
     "theme": {
       "name": "lawyerm4",
       "title": "LawyerM4",
@@ -79,11 +79,11 @@
     }
   },
   "pages": {
-    "index.html": {
+    "Juridicodeita.html": {
       "settings": {
         "main": true,
         "title": "Despacho Juridico De Ita Y Asociados",
-        "meta_descr": "Despacho Juridico De Ita y Asociados constituye un despacho de abogados que ofrece sus servicio de asesoria jurídica integral para personas y empresas.  Monclova, Coah.",
+        "meta_descr": "Despacho Juridico De Ita y Asociados constituye un despacho de abogados que ofrece sus servicio de asesoria jurídica integral para personas y empresas asi como negliencias medicias, contamos con un servicio de promotora del paciente.  Ubicados en Monclova, Coah. Abogados Monclova, Despacho Juridico Monclova",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
